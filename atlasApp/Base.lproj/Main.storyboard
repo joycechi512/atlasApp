@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sGi-Kr-d3P">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -7,105 +7,475 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
-            <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="atlasApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="atlas " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8RG-iY-f2Q">
-                                <rect key="frame" x="121" y="126" width="172" height="141"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="41"/>
-                                <color key="textColor" red="0.9373893141746521" green="0.80075997114181519" blue="0.04118327796459198" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="get started" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="waQ-Cc-wlY">
-                                <rect key="frame" x="121" y="521" width="191" height="217"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.9373893141746521" green="0.80075997114181519" blue="0.04118327796459198" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Szd-Bg-eGx">
-                                <rect key="frame" x="121" y="672" width="137" height="111"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
-                                <state key="normal" image="arrow.right" catalog="system"/>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="0.077371858060359955" green="0.17722097039222717" blue="0.28414684534072876" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="113.04347826086958" y="101.78571428571428"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="QjS-CY-A2Y">
-            <objects>
-                <viewController id="xEZ-qz-3zO" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="syD-wL-TtX">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="cjN-dJ-KTM"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="K9K-LN-jpp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="109" y="747"/>
-        </scene>
-        <!--View Controller-->
+        <!--Home Screen View Controller-->
         <scene sceneID="fkp-RD-XXh">
             <objects>
-                <viewController id="zHq-1S-ILS" sceneMemberID="viewController">
+                <viewController id="zHq-1S-ILS" customClass="HomeScreenViewController" customModule="atlasApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uBa-5M-Nab">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Fs-HB-ras">
+                                <rect key="frame" x="-21" y="764" width="515" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="Globe" width="197.5" id="XSA-Jc-4SW">
+                                        <connections>
+                                            <action selector="indexTapped:" destination="zHq-1S-ILS" id="T0R-xl-Guc"/>
+                                            <segue destination="mYL-ss-Ilm" kind="show" id="p6i-ui-IT2"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Vote" width="448" id="WZ9-WX-nmj">
+                                        <connections>
+                                            <action selector="voteTapped:" destination="zHq-1S-ILS" id="Zi7-pi-o39"/>
+                                            <segue destination="jUJ-Bv-202" kind="show" id="hie-1A-o69"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Home Page" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZNp-Bq-phL">
+                                <rect key="frame" x="168" y="222" width="89" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="HIG-tF-IxS"/>
                     </view>
+                    <navigationItem key="navigationItem" id="jJT-zs-oxc"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LvY-he-OS0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="81" y="1392"/>
+            <point key="canvasLocation" x="956.52173913043487" y="269.19642857142856"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="5xt-p6-CbF">
+        <!--Navigation Controller-->
+        <scene sceneID="Xlg-az-eL6">
             <objects>
-                <viewController id="YDD-cJ-rKe" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="cPd-gC-J2c">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="ZDy-Hf-aOO"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="53O-Jl-cBl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="sGi-Kr-d3P" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="xwk-RD-4in">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="zHq-1S-ILS" kind="relationship" relationship="rootViewController" id="hrt-Ih-uJp"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5KZ-Qi-B9a" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="114" y="2036"/>
+            <point key="canvasLocation" x="106" y="270"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="cev-tS-7Xa">
+        <!--BLM Info View Controller-->
+        <scene sceneID="dNX-8G-rXe">
             <objects>
-                <viewController id="OfZ-UO-678" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="GsS-NV-srs">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                <viewController title="BLM Info View Controller" id="N6z-sp-tYE" customClass="BLMInfoViewController" customModule="atlasApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uI5-oU-sfg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BLM Information Page" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3GP-89-z7b">
+                                <rect key="frame" x="123" y="75" width="169" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uEB-By-1Tf">
+                                <rect key="frame" x="0.0" y="764" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="Home Page" id="Qrv-bl-Ega">
+                                        <connections>
+                                            <action selector="BLMInfoHomeTapped:" destination="N6z-sp-tYE" id="gRx-1Q-JUn"/>
+                                            <segue destination="zHq-1S-ILS" kind="show" id="RzV-Yn-vU1"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Globe" width="246.5" id="xka-sJ-J0i">
+                                        <connections>
+                                            <action selector="BLMInfoIndexTapped:" destination="N6z-sp-tYE" id="ySP-Qv-VLX"/>
+                                            <segue destination="mYL-ss-Ilm" kind="show" id="yrk-bv-2IQ"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Bills/Petition" id="p73-fW-kEw">
+                                        <connections>
+                                            <action selector="BLMInfoBillsTapped:" destination="N6z-sp-tYE" id="EsM-6N-Orc"/>
+                                            <segue destination="Rhu-E7-fNJ" kind="show" id="EI4-Ee-wPW"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="k1l-bQ-OfY"/>
+                        <viewLayoutGuide key="safeArea" id="izI-xo-WRS"/>
                     </view>
+                    <navigationItem key="navigationItem" id="X4S-np-xBX"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="gj3-zw-eQx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Myf-uh-D7v" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="214" y="2681"/>
+            <point key="canvasLocation" x="-252" y="1625"/>
+        </scene>
+        <!--Ice Info View Controller-->
+        <scene sceneID="sKp-f6-cDI">
+            <objects>
+                <viewController title="Ice Info View Controller" id="aEv-SZ-XTe" customClass="IceInfoViewController" customModule="atlasApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Lww-Q9-gII">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="49k-8F-9cY">
+                                <rect key="frame" x="0.0" y="764" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="Home Page" id="bK8-6a-iDz">
+                                        <connections>
+                                            <action selector="IceInfoHomeTapped:" destination="aEv-SZ-XTe" id="mV3-IY-yfZ"/>
+                                            <segue destination="zHq-1S-ILS" kind="show" id="5Xc-1Q-2mv"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Globe" width="192.5" id="va6-mR-oUQ">
+                                        <connections>
+                                            <action selector="IceInfoIndexTapped:" destination="aEv-SZ-XTe" id="DwN-ez-mYx"/>
+                                            <segue destination="mYL-ss-Ilm" kind="show" id="liH-mF-17b"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Petition/Bills" id="Oza-ht-mOR">
+                                        <connections>
+                                            <action selector="IceBillsTapped:" destination="aEv-SZ-XTe" id="ft3-em-Mtp"/>
+                                            <segue destination="R2y-0h-cme" kind="show" id="unA-XK-7mo"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ice Camps Information" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XN6-i0-op1">
+                                <rect key="frame" x="121" y="109" width="173" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="0KL-2D-HAT"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="YWE-81-C2b"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="emU-g6-GF9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1958" y="1636"/>
+        </scene>
+        <!--NA Info View Controller-->
+        <scene sceneID="S3R-OB-qhv">
+            <objects>
+                <viewController title="NA Info View Controller" id="Rgu-dZ-SMN" customClass="NAInfoViewController" customModule="atlasApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZJG-1d-k8B">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bD6-c2-jG3">
+                                <rect key="frame" x="0.0" y="764" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="Home Page" id="DMb-ey-GhH">
+                                        <connections>
+                                            <action selector="NAInfoHomeTapped:" destination="Rgu-dZ-SMN" id="snT-nY-2dP"/>
+                                            <segue destination="zHq-1S-ILS" kind="show" id="rJV-ED-E0G"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Globe" width="268.5" id="ZaF-Ri-S1E">
+                                        <connections>
+                                            <action selector="NAInfoGlobeTapped:" destination="Rgu-dZ-SMN" id="owr-yN-eeP"/>
+                                            <segue destination="mYL-ss-Ilm" kind="show" id="BwQ-QO-lod"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Petitions/Bills" id="HzT-gE-QZD">
+                                        <connections>
+                                            <action selector="NAInfoBillsTapped:" destination="Rgu-dZ-SMN" id="ezC-B5-ZOy"/>
+                                            <segue destination="FS6-g1-ScP" kind="show" id="evP-bK-OSv"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Native Americans Information" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IzJ-0o-v2g">
+                                <rect key="frame" x="94" y="117" width="226" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="G3q-kt-TGA"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="0n1-IJ-Hlv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FBb-QA-iuy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3891" y="1625"/>
+        </scene>
+        <!--NA Bills/Petitions View Controller-->
+        <scene sceneID="QrN-aY-HDq">
+            <objects>
+                <viewController title="NA Bills/Petitions View Controller" id="FS6-g1-ScP" customClass="NABillsViewController" customModule="atlasApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ixq-7b-JJx">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pyB-Us-INU">
+                                <rect key="frame" x="0.0" y="764" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="Home Page" id="Ld9-vw-3Xs">
+                                        <connections>
+                                            <action selector="NABillHomeTapped:" destination="FS6-g1-ScP" id="wHN-y3-YBD"/>
+                                            <segue destination="zHq-1S-ILS" kind="show" id="4iV-qh-oeV"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Globe" width="250.5" id="S1B-AX-UTV">
+                                        <connections>
+                                            <action selector="NABillIndexTapped:" destination="FS6-g1-ScP" id="XuS-0w-kEj"/>
+                                            <segue destination="mYL-ss-Ilm" kind="show" id="GhN-IJ-jrH"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Info Page" id="Etb-Mr-6pw">
+                                        <connections>
+                                            <action selector="NABillInfoTapped:" destination="FS6-g1-ScP" id="Bkt-zy-3t0"/>
+                                            <segue destination="Rgu-dZ-SMN" kind="show" id="bNb-Qb-iYS"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Native Americans Petitions/Bills" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B42-a5-dZM">
+                                <rect key="frame" x="87" y="123" width="241" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="u05-5z-uk3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Zo4-O5-gyg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gnn-rZ-URe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4968" y="1636"/>
+        </scene>
+        <!--Ice Bills/Petitions View Controller-->
+        <scene sceneID="WGY-RE-jrY">
+            <objects>
+                <viewController title="Ice Bills/Petitions View Controller" id="R2y-0h-cme" customClass="IceBillsViewController" customModule="atlasApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qMy-Y0-jPp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VcP-gh-AyB">
+                                <rect key="frame" x="0.0" y="764" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="Home Page" id="xsf-PD-qhj">
+                                        <connections>
+                                            <action selector="IceBillHomeTapped:" destination="R2y-0h-cme" id="SGi-Lf-qAp"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Globe" width="261.5" id="5Ln-HH-26o">
+                                        <connections>
+                                            <action selector="IceBillGlobeTapped:" destination="R2y-0h-cme" id="YQ3-tW-NJX"/>
+                                            <segue destination="mYL-ss-Ilm" kind="show" id="PpT-Ui-yPV"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Info Page" id="gxP-Dt-6h0">
+                                        <connections>
+                                            <action selector="IceBillInfoTapped:" destination="R2y-0h-cme" id="FdO-ru-aPp"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ice Camps Petitions/Bills" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lct-5f-upD">
+                                <rect key="frame" x="113" y="116" width="188" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Lq2-BS-lOi"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="33o-E4-z53"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NJk-z8-kX7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2858" y="1625"/>
+        </scene>
+        <!--BLM Petitons/Bills VC-->
+        <scene sceneID="oCJ-Bb-w72">
+            <objects>
+                <viewController title="BLM Petitons/Bills VC" id="Rhu-E7-fNJ" customClass="BLMBillsPetitionsViewController" customModule="atlasApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Zwx-sb-ffj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BLM Bills/Petitions Page" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uvq-At-RcU">
+                                <rect key="frame" x="115" y="75" width="185" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wpa-mk-OOf">
+                                <rect key="frame" x="0.0" y="764" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="Home Page" width="136.5" id="GTv-zS-Kpu">
+                                        <connections>
+                                            <action selector="BLMbillHomeTapped:" destination="Rhu-E7-fNJ" id="VeG-lT-mwT"/>
+                                            <segue destination="zHq-1S-ILS" kind="show" id="2O0-vh-69W"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Globe" width="219.5" id="THl-FG-D9g">
+                                        <connections>
+                                            <action selector="BLMbillindexTapped:" destination="Rhu-E7-fNJ" id="AkN-PY-Kth"/>
+                                            <segue destination="mYL-ss-Ilm" kind="show" id="COM-C7-oeR"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Info Page" id="V6i-ts-jDV">
+                                        <connections>
+                                            <action selector="BLMBillinfoTapped:" destination="Rhu-E7-fNJ" id="2TG-um-m01"/>
+                                            <segue destination="N6z-sp-tYE" kind="show" id="wCY-Lc-5a5"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="1RG-u4-opx"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="FdT-FV-aeg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xpc-bi-uoM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="849" y="1636"/>
+        </scene>
+        <!--IndexViewController-->
+        <scene sceneID="8t9-Tn-adW">
+            <objects>
+                <viewController title="IndexViewController" id="mYL-ss-Ilm" customClass="IndexViewController" customModule="atlasApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tBk-Le-1gH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ckx-rQ-d0F">
+                                <rect key="frame" x="134" y="185" width="146" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="ICE Detention Camps"/>
+                                <connections>
+                                    <action selector="ICEButtonIndexTapped:" destination="mYL-ss-Ilm" eventType="touchUpInside" id="B9C-9d-GVH"/>
+                                    <segue destination="aEv-SZ-XTe" kind="show" id="2r7-oG-pXr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AU8-9o-dRF">
+                                <rect key="frame" x="105" y="223" width="205" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Native American Reservations"/>
+                                <connections>
+                                    <action selector="NAButtonIndexTapped:" destination="mYL-ss-Ilm" eventType="touchUpInside" id="pEJ-zT-uQd"/>
+                                    <segue destination="Rgu-dZ-SMN" kind="show" id="cJY-oa-CYM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uCw-b3-7W7">
+                                <rect key="frame" x="144" y="147" width="126" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Black Lives Matter"/>
+                                <connections>
+                                    <action selector="BLMButtonIndexTapped:" destination="mYL-ss-Ilm" eventType="touchUpInside" id="ovd-Xn-mVK"/>
+                                    <segue destination="N6z-sp-tYE" kind="show" id="Sm6-Ty-WDZ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Race Issues" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YBh-2B-DoQ">
+                                <rect key="frame" x="162" y="118" width="91" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="CJj-TV-CW8"/>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem title="Home Page" width="202.5" id="x5v-hM-plB">
+                            <connections>
+                                <action selector="homeButtonfromIndexTapped:" destination="mYL-ss-Ilm" id="8kf-2r-1DW"/>
+                                <segue destination="zHq-1S-ILS" kind="show" id="T5M-6m-e1e"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem title="Vote " width="406" id="nt6-O5-yVM">
+                            <connections>
+                                <action selector="voteButtonFromIndexTapped:" destination="mYL-ss-Ilm" id="Hqo-CC-aK8"/>
+                                <segue destination="jUJ-Bv-202" kind="show" id="hjD-DS-zK8"/>
+                            </connections>
+                        </barButtonItem>
+                    </toolbarItems>
+                    <navigationItem key="navigationItem" id="RAp-Cr-n0g"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2KL-Bj-uTX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="504" y="963"/>
+        </scene>
+        <!--VoteViewController-->
+        <scene sceneID="EUt-z3-hJW">
+            <objects>
+                <viewController title="VoteViewController" id="jUJ-Bv-202" customClass="VoteViewController" customModule="atlasApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="prF-2K-YB2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zj9-BP-3yA">
+                                <rect key="frame" x="0.0" y="764" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="Home" width="195" id="aPt-Y0-dtt">
+                                        <connections>
+                                            <action selector="VoteHomeTapped:" destination="jUJ-Bv-202" id="3ni-bu-wjU"/>
+                                            <segue destination="zHq-1S-ILS" kind="show" id="jV7-4h-AKF"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Globe" width="387.5" id="x90-ng-Tjk">
+                                        <connections>
+                                            <action selector="VoteGlobalTapped:" destination="jUJ-Bv-202" id="2Pn-vD-kMD"/>
+                                            <segue destination="mYL-ss-Ilm" kind="show" id="yLw-Ra-VZa"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Voting Page" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XxD-rB-39c">
+                                <rect key="frame" x="171" y="116" width="92" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Wyv-PA-7hK"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="KVs-2W-B0U"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tnx-Xb-Nwd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2578" y="963"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="arrow.right" catalog="system" width="128" height="98"/>
-    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="hjD-DS-zK8"/>
+        <segue reference="yLw-Ra-VZa"/>
+        <segue reference="bNb-Qb-iYS"/>
+        <segue reference="Sm6-Ty-WDZ"/>
+        <segue reference="jV7-4h-AKF"/>
+    </inferredMetricsTieBreakers>
 </document>

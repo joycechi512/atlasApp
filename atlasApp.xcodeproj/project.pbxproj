@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C904631324BFE0B800687B83 /* BLMBillsPetitionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C904631224BFE0B800687B83 /* BLMBillsPetitionsViewController.swift */; };
+		C904631524BFE15900687B83 /* BLMInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C904631424BFE15900687B83 /* BLMInfoViewController.swift */; };
+		C904631724BFE80C00687B83 /* VoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C904631624BFE80C00687B83 /* VoteViewController.swift */; };
+		C904631924BFEFB500687B83 /* IceInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C904631824BFEFB500687B83 /* IceInfoViewController.swift */; };
+		C904631B24BFEFD500687B83 /* IceBillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C904631A24BFEFD500687B83 /* IceBillsViewController.swift */; };
+		C904631D24BFEFE400687B83 /* NAInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C904631C24BFEFE400687B83 /* NAInfoViewController.swift */; };
+		C904631F24BFEFF400687B83 /* NABillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C904631E24BFEFF400687B83 /* NABillsViewController.swift */; };
+		C9ABF6D424BFA93200FAD5CA /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ABF6D324BFA93200FAD5CA /* HomeScreenViewController.swift */; };
+		C9ABF6D624BFD72A00FAD5CA /* IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ABF6D524BFD72A00FAD5CA /* IndexViewController.swift */; };
 		E96FE81A24BEAAFC00656C7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96FE81924BEAAFC00656C7C /* AppDelegate.swift */; };
 		E96FE81C24BEAAFC00656C7C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96FE81B24BEAAFC00656C7C /* SceneDelegate.swift */; };
 		E96FE81E24BEAAFC00656C7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96FE81D24BEAAFC00656C7C /* ViewController.swift */; };
@@ -36,6 +45,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C904631224BFE0B800687B83 /* BLMBillsPetitionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLMBillsPetitionsViewController.swift; sourceTree = "<group>"; };
+		C904631424BFE15900687B83 /* BLMInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLMInfoViewController.swift; sourceTree = "<group>"; };
+		C904631624BFE80C00687B83 /* VoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteViewController.swift; sourceTree = "<group>"; };
+		C904631824BFEFB500687B83 /* IceInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceInfoViewController.swift; sourceTree = "<group>"; };
+		C904631A24BFEFD500687B83 /* IceBillsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceBillsViewController.swift; sourceTree = "<group>"; };
+		C904631C24BFEFE400687B83 /* NAInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAInfoViewController.swift; sourceTree = "<group>"; };
+		C904631E24BFEFF400687B83 /* NABillsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NABillsViewController.swift; sourceTree = "<group>"; };
+		C9ABF6D324BFA93200FAD5CA /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		C9ABF6D524BFD72A00FAD5CA /* IndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexViewController.swift; sourceTree = "<group>"; };
 		E96FE81624BEAAFC00656C7C /* atlasApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = atlasApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E96FE81924BEAAFC00656C7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E96FE81B24BEAAFC00656C7C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,10 +123,19 @@
 				E96FE81B24BEAAFC00656C7C /* SceneDelegate.swift */,
 				E96FE81D24BEAAFC00656C7C /* ViewController.swift */,
 				E96FE81F24BEAAFC00656C7C /* Main.storyboard */,
+				C904631824BFEFB500687B83 /* IceInfoViewController.swift */,
 				E96FE82524BEAB3600656C7C /* Assets.xcassets */,
 				E96FE82724BEAB3600656C7C /* LaunchScreen.storyboard */,
 				E96FE82A24BEAB3600656C7C /* Info.plist */,
 				E96FE82224BEAAFD00656C7C /* atlasApp.xcdatamodeld */,
+				C9ABF6D324BFA93200FAD5CA /* HomeScreenViewController.swift */,
+				C9ABF6D524BFD72A00FAD5CA /* IndexViewController.swift */,
+				C904631224BFE0B800687B83 /* BLMBillsPetitionsViewController.swift */,
+				C904631424BFE15900687B83 /* BLMInfoViewController.swift */,
+				C904631624BFE80C00687B83 /* VoteViewController.swift */,
+				C904631A24BFEFD500687B83 /* IceBillsViewController.swift */,
+				C904631C24BFEFE400687B83 /* NAInfoViewController.swift */,
+				C904631E24BFEFF400687B83 /* NABillsViewController.swift */,
 			);
 			path = atlasApp;
 			sourceTree = "<group>";
@@ -262,10 +289,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C904631F24BFEFF400687B83 /* NABillsViewController.swift in Sources */,
 				E96FE81E24BEAAFC00656C7C /* ViewController.swift in Sources */,
 				E96FE81A24BEAAFC00656C7C /* AppDelegate.swift in Sources */,
+				C904631B24BFEFD500687B83 /* IceBillsViewController.swift in Sources */,
 				E96FE81C24BEAAFC00656C7C /* SceneDelegate.swift in Sources */,
 				E96FE82424BEAAFD00656C7C /* atlasApp.xcdatamodeld in Sources */,
+				C904631524BFE15900687B83 /* BLMInfoViewController.swift in Sources */,
+				C9ABF6D424BFA93200FAD5CA /* HomeScreenViewController.swift in Sources */,
+				C904631D24BFEFE400687B83 /* NAInfoViewController.swift in Sources */,
+				C904631724BFE80C00687B83 /* VoteViewController.swift in Sources */,
+				C9ABF6D624BFD72A00FAD5CA /* IndexViewController.swift in Sources */,
+				C904631924BFEFB500687B83 /* IceInfoViewController.swift in Sources */,
+				C904631324BFE0B800687B83 /* BLMBillsPetitionsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
