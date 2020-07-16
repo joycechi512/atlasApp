@@ -13,7 +13,7 @@ class HomeScreenViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.setHidesBackButton(true, animated: false)
-               self.navigationController?.isNavigationBarHidden = true
+              
            }
            override func viewWillDisappear(_ animated: Bool) {
                super.viewWillAppear(animated)

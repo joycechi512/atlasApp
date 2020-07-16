@@ -13,18 +13,17 @@ class IndexViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.setHidesBackButton(true, animated: false)
-        self.navigationController?.isNavigationBarHidden = true
+      
            }
-           override func viewWillDisappear(_ animated: Bool) {
-               super.viewWillAppear(animated)
-               self.navigationController?.setToolbarHidden(true, animated: animated)
+           
+    
+    @IBAction func IndextoVoteTapped(_ sender: Any) {
     }
     
-    @IBAction func homeButtonfromIndexTapped(_ sender: Any) {
+    
+    @IBAction func IndextoHomeTapped(_ sender: Any) {
     }
     
-    @IBAction func voteButtonFromIndexTapped(_ sender: Any) {
-    }
     
     @IBAction func BLMButtonIndexTapped(_ sender: Any) {
     }
@@ -34,15 +33,11 @@ class IndexViewController: UIViewController {
     
     @IBAction func NAButtonIndexTapped(_ sender: Any) {
     }
-    
-    /*
-    // MARK: - Navigation
+    override func viewWillDisappear(_ animated: Bool) {
+    super.viewWillAppear(animated)
+    self.navigationController?.setToolbarHidden(true, animated: animated)
+   
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
+}
 
 }
