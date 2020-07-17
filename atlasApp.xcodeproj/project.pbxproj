@@ -16,6 +16,7 @@
 		C98205D624C14B2D005E0AA5 /* NABillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98205D524C14B2D005E0AA5 /* NABillsViewController.swift */; };
 		C9ABF6D424BFA93200FAD5CA /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ABF6D324BFA93200FAD5CA /* HomeScreenViewController.swift */; };
 		C9ABF6D624BFD72A00FAD5CA /* IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ABF6D524BFD72A00FAD5CA /* IndexViewController.swift */; };
+		E90CF97124C19FC100900A1A /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E90CF97024C19FC100900A1A /* Launch Screen.storyboard */; };
 		E96FE81A24BEAAFC00656C7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96FE81924BEAAFC00656C7C /* AppDelegate.swift */; };
 		E96FE81C24BEAAFC00656C7C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96FE81B24BEAAFC00656C7C /* SceneDelegate.swift */; };
 		E96FE81E24BEAAFC00656C7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96FE81D24BEAAFC00656C7C /* ViewController.swift */; };
@@ -54,6 +55,7 @@
 		C98205D524C14B2D005E0AA5 /* NABillsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NABillsViewController.swift; sourceTree = "<group>"; };
 		C9ABF6D324BFA93200FAD5CA /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
 		C9ABF6D524BFD72A00FAD5CA /* IndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexViewController.swift; sourceTree = "<group>"; };
+		E90CF97024C19FC100900A1A /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		E96FE81624BEAAFC00656C7C /* atlasApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = atlasApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E96FE81924BEAAFC00656C7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E96FE81B24BEAAFC00656C7C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				E96FE81B24BEAAFC00656C7C /* SceneDelegate.swift */,
 				E96FE81D24BEAAFC00656C7C /* ViewController.swift */,
 				E96FE81F24BEAAFC00656C7C /* Main.storyboard */,
+				E90CF97024C19FC100900A1A /* Launch Screen.storyboard */,
 				E96FE82524BEAB3600656C7C /* Assets.xcassets */,
 				E96FE82724BEAB3600656C7C /* LaunchScreen.storyboard */,
 				E96FE82A24BEAB3600656C7C /* Info.plist */,
@@ -264,6 +267,7 @@
 			files = (
 				E96FE82924BEAB3600656C7C /* LaunchScreen.storyboard in Resources */,
 				E96FE82624BEAB3600656C7C /* Assets.xcassets in Resources */,
+				E90CF97124C19FC100900A1A /* Launch Screen.storyboard in Resources */,
 				E96FE82124BEAAFC00656C7C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

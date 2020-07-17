@@ -17,7 +17,7 @@ class NABillsViewController: UIViewController {
         self.navigationItem.setHidesBackButton(true, animated: false)
         self.navigationController?.isNavigationBarHidden = true
         
-        naLabel.text = " "
+        naLabel.text = ""
         
            }
            

@@ -13,6 +13,8 @@ class HomeScreenViewController: UIViewController {
     
     @IBOutlet weak var randomFactLabel: UILabel!
     
+    var fontName = NSMutableArray.init(array:["Montserrat","Quicksand"])
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.setHidesBackButton(true, animated: false)
