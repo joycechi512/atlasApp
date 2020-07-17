@@ -12,6 +12,12 @@ class IceBillViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationItem.setHidesBackButton(true, animated: false)
+        self.navigationController?.isNavigationBarHidden = true
+           }
+           override func viewWillDisappear(_ animated: Bool) {
+               super.viewWillAppear(animated)
+               self.navigationController?.setToolbarHidden(true, animated: animated)
 
         // Do any additional setup after loading the view.
     }
