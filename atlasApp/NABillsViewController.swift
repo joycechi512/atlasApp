@@ -2,7 +2,7 @@
 //  NABillsViewController.swift
 //  atlasApp
 //
-//  Created by Jennie Pham on 7/15/20.
+//  Created by Jennie Pham on 7/16/20.
 //  Copyright © 2020 Joyce. All rights reserved.
 //
 
@@ -12,22 +12,25 @@ class NABillsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationItem.setHidesBackButton(true, animated: false)
-               self.navigationController?.isNavigationBarHidden = true
 
+        // Do any additional setup after loading the view.
     }
-    override func viewWillDisappear(_ animated: Bool) {
-    super.viewWillAppear(animated)
-    self.navigationController?.setToolbarHidden(true, animated: animated)
+    
+    @IBAction func NABillToInfoTapped(_ sender: Any) {
+    }
+    
+    @IBAction func NABillToIndexTapped(_ sender: Any) {
+    }
+    @IBAction func NABillToHomeTapped(_ sender: Any) {
+    }
+    /*
+    // MARK: - Navigation
 
-}
-    
-    @IBAction func NABillHomeTapped(_ sender: Any) {
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destination.
+        // Pass the selected object to the new view controller.
     }
-    
-    @IBAction func NABillIndexTapped(_ sender: Any) {
-    }
-    
-    @IBAction func NABillInfoTapped(_ sender: Any) {
-    }
+    */
+
 }

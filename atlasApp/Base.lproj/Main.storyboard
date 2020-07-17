@@ -12,11 +12,11 @@
             <objects>
                 <viewController id="zHq-1S-ILS" customClass="HomeScreenViewController" customModule="atlasApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uBa-5M-Nab">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Fs-HB-ras">
-                                <rect key="frame" x="-21" y="818" width="515" height="44"/>
+                                <rect key="frame" x="-21" y="764" width="515" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
                                     <barButtonItem title="Globe" width="197.5" id="XSA-Jc-4SW">
@@ -73,29 +73,29 @@
             <objects>
                 <viewController title="NA Bills/Petitions View Controller" id="FS6-g1-ScP" customClass="NABillsViewController" customModule="atlasApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ixq-7b-JJx">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pyB-Us-INU">
-                                <rect key="frame" x="0.0" y="818" width="414" height="44"/>
+                                <rect key="frame" x="0.0" y="764" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
                                     <barButtonItem title="Info Page" id="Etb-Mr-6pw">
                                         <connections>
-                                            <action selector="NABillInfoTapped:" destination="FS6-g1-ScP" id="Bkt-zy-3t0"/>
-                                            <segue destination="HZi-b8-5bS" kind="show" id="vSb-lB-x7S"/>
+                                            <action selector="NABillToInfoTapped:" destination="FS6-g1-ScP" id="BpW-B7-hcn"/>
+                                            <segue destination="HZi-b8-5bS" kind="show" id="QvD-f7-eGX"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem title="Globe" width="402.5" id="S1B-AX-UTV">
                                         <connections>
-                                            <action selector="NABillIndexTapped:" destination="FS6-g1-ScP" id="XuS-0w-kEj"/>
-                                            <segue destination="mYL-ss-Ilm" kind="show" id="GhN-IJ-jrH"/>
+                                            <action selector="NABillToIndexTapped:" destination="FS6-g1-ScP" id="EnU-3l-Muz"/>
+                                            <segue destination="mYL-ss-Ilm" kind="show" id="rhd-SN-5ZD"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem title="Home Page" id="Ld9-vw-3Xs">
                                         <connections>
-                                            <action selector="NABillHomeTapped:" destination="FS6-g1-ScP" id="wHN-y3-YBD"/>
-                                            <segue destination="zHq-1S-ILS" kind="show" id="4iV-qh-oeV"/>
+                                            <action selector="NABillToHomeTapped:" destination="FS6-g1-ScP" id="3Li-l7-WiT"/>
+                                            <segue destination="zHq-1S-ILS" kind="show" id="8rp-be-A5A"/>
                                         </connections>
                                     </barButtonItem>
                                 </items>
@@ -122,11 +122,11 @@
             <objects>
                 <viewController title="Ice Bills/Petitions View Controller" id="R2y-0h-cme" customClass="IceBillViewController" customModule="atlasApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qMy-Y0-jPp">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VcP-gh-AyB">
-                                <rect key="frame" x="0.0" y="818" width="414" height="44"/>
+                                <rect key="frame" x="0.0" y="764" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
                                     <barButtonItem title="Info Page" id="gxP-Dt-6h0">
@@ -171,7 +171,7 @@
             <objects>
                 <viewController title="BLM Petitons/Bills VC" id="Rhu-E7-fNJ" customClass="BLMBillsPetitionsViewController" customModule="atlasApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Zwx-sb-ffj">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BLM Bills/Petitions Page" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uvq-At-RcU">
@@ -182,7 +182,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wpa-mk-OOf">
-                                <rect key="frame" x="0.0" y="818" width="414" height="44"/>
+                                <rect key="frame" x="0.0" y="764" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
                                     <barButtonItem title="Info Page" id="V6i-ts-jDV">
@@ -220,11 +220,11 @@
             <objects>
                 <viewController title="BLM Info VC" id="N7V-Tk-9s1" customClass="scrollViewViewController" customModule="atlasApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="74b-H3-m7C">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4u9-Sa-YEH">
-                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="759"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9B8-YT-PvQ">
                                         <rect key="frame" x="20" y="0.0" width="378" height="818"/>
@@ -288,7 +288,7 @@
                                 </constraints>
                             </scrollView>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="321-m6-RCA">
-                                <rect key="frame" x="0.0" y="829" width="414" height="44"/>
+                                <rect key="frame" x="0.0" y="775" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
                                     <barButtonItem title="Petitions/Bills" id="z64-s3-uQs">
@@ -337,7 +337,7 @@
             <objects>
                 <viewController title="IndexViewController" id="mYL-ss-Ilm" customClass="IndexViewController" customModule="atlasApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tBk-Le-1gH">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ckx-rQ-d0F">
@@ -375,7 +375,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8cN-ix-HCT">
-                                <rect key="frame" x="-21" y="830" width="457" height="44"/>
+                                <rect key="frame" x="-21" y="776" width="457" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
                                     <barButtonItem title="Vote" width="293" id="DnK-kj-qfD">
@@ -409,11 +409,11 @@
             <objects>
                 <viewController title="VoteViewController" id="jUJ-Bv-202" customClass="VoteViewController" customModule="atlasApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="prF-2K-YB2">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zj9-BP-3yA">
-                                <rect key="frame" x="0.0" y="818" width="414" height="44"/>
+                                <rect key="frame" x="0.0" y="764" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
                                     <barButtonItem title="Home" width="195" id="aPt-Y0-dtt">
@@ -452,11 +452,11 @@
             <objects>
                 <viewController title="ICE Info VC" id="Coa-BN-oUm" customClass="IceInformationViewController" customModule="atlasApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ogh-YK-n9t">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G71-18-0nl">
-                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="759"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IiU-hy-0Xm">
                                         <rect key="frame" x="20" y="0.0" width="378" height="818"/>
@@ -520,10 +520,10 @@
                                 </constraints>
                             </scrollView>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OEm-Ff-YuQ">
-                                <rect key="frame" x="0.0" y="829" width="414" height="44"/>
+                                <rect key="frame" x="0.0" y="775" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
-                                    <barButtonItem title="Petitions/Bills" id="krg-cR-UwK">
+                                    <barButtonItem title="Petitions/Bills" image="pencil" catalog="system" id="krg-cR-UwK">
                                         <connections>
                                             <segue destination="R2y-0h-cme" kind="show" id="YAa-Fy-baZ"/>
                                         </connections>
@@ -566,11 +566,11 @@
             <objects>
                 <viewController title="NA Info VC" id="HZi-b8-5bS" customClass="NAInfoViewController" customModule="atlasApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MQ5-7U-BqH">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r80-wK-zZU">
-                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="759"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="amc-p6-FFA">
                                         <rect key="frame" x="20" y="0.0" width="378" height="818"/>
@@ -634,7 +634,7 @@
                                 </constraints>
                             </scrollView>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vjv-uS-ZIX">
-                                <rect key="frame" x="0.0" y="829" width="414" height="44"/>
+                                <rect key="frame" x="0.0" y="775" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
                                     <barButtonItem title="Petitions/Bills" id="D8v-es-4Ef">
@@ -779,12 +779,14 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="YAa-Fy-baZ"/>
-        <segue reference="3nE-8B-Ah7"/>
+        <segue reference="QvD-f7-eGX"/>
         <segue reference="bhJ-RB-JEA"/>
         <segue reference="CWD-ug-dg5"/>
-        <segue reference="ZP8-5K-EkV"/>
+        <segue reference="rhd-SN-5ZD"/>
         <segue reference="EUT-8O-klI"/>
-        <segue reference="IFt-rw-lyc"/>
+        <segue reference="8rp-be-A5A"/>
     </inferredMetricsTieBreakers>
+    <resources>
+        <image name="pencil" catalog="system" width="128" height="113"/>
+    </resources>
 </document>
