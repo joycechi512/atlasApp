@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		C904631324BFE0B800687B83 /* BLMBillsPetitionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C904631224BFE0B800687B83 /* BLMBillsPetitionsViewController.swift */; };
 		C904631724BFE80C00687B83 /* VoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C904631624BFE80C00687B83 /* VoteViewController.swift */; };
-		C904631B24BFEFD500687B83 /* IceBillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C904631A24BFEFD500687B83 /* IceBillsViewController.swift */; };
 		C904631F24BFEFF400687B83 /* NABillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C904631E24BFEFF400687B83 /* NABillsViewController.swift */; };
 		C95DA00124C0C5BC00BADF3A /* scrollViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95DA00024C0C5BC00BADF3A /* scrollViewViewController.swift */; };
 		C95DA00724C0EF2600BADF3A /* IceInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95DA00624C0EF2600BADF3A /* IceInformationViewController.swift */; };
@@ -25,6 +24,7 @@
 		E96FE82924BEAB3600656C7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E96FE82724BEAB3600656C7C /* LaunchScreen.storyboard */; };
 		E96FE83424BEAB3800656C7C /* atlasAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96FE83324BEAB3800656C7C /* atlasAppTests.swift */; };
 		E96FE83F24BEAB3900656C7C /* atlasAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96FE83E24BEAB3900656C7C /* atlasAppUITests.swift */; };
+		E9D0CC6A24C13D06002E6233 /* IceBillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C904631A24BFEFD500687B83 /* IceBillsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -292,9 +292,9 @@
 				C904631F24BFEFF400687B83 /* NABillsViewController.swift in Sources */,
 				E96FE81E24BEAAFC00656C7C /* ViewController.swift in Sources */,
 				E96FE81A24BEAAFC00656C7C /* AppDelegate.swift in Sources */,
-				C904631B24BFEFD500687B83 /* IceBillsViewController.swift in Sources */,
 				E96FE81C24BEAAFC00656C7C /* SceneDelegate.swift in Sources */,
 				E96FE82424BEAAFD00656C7C /* atlasApp.xcdatamodeld in Sources */,
+				E9D0CC6A24C13D06002E6233 /* IceBillsViewController.swift in Sources */,
 				C9ABF6D424BFA93200FAD5CA /* HomeScreenViewController.swift in Sources */,
 				C95DA00924C0FC5400BADF3A /* NAInfoViewController.swift in Sources */,
 				C904631724BFE80C00687B83 /* VoteViewController.swift in Sources */,
